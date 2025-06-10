@@ -210,7 +210,7 @@
         </div>
     </header>
     <!-- Hero -->
-    <section class="section-hero margin-b-0">
+    <!-- <section class="section-hero margin-b-0">
         <div class="container-fulid">
             <div class="row">
                 <div class="col-12">
@@ -294,7 +294,6 @@
                 </div>
             </div>
         </div>
-        <!--form booking-->
         <section class="book-now-widget" id="book-room">
             <form id="book-now-form" action="" method="get" target="">
 
@@ -332,48 +331,62 @@
             </form>
 
         </section>
-        <!--form booking-->
-    </section>
+    </section> -->
 
-    <!-- <section class="section-hero margin-b-50">
+    <section class="section-hero margin-b-0">
         <div class="container-fulid">
             <div class="row">
                 <div class="col-12">
                     <div class="youtube-video-container">
                         <div class="youtube-video-wrapper">
-                            <iframe
-                                src="https://www.youtube.com/embed/z7lYWT594qY?rel=0&controls=0&autoplay=1&mute=1&loop=1&playlist=z7lYWT594qY&enablejsapi=1"
-                                frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen>
-                            </iframe>
-                        </div>
-                        <div class="rx-hero-contact">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="inner-contact slider-animation">
-                                            <p>Luxury Hotel & Restaurant</p>
-                                            <h2>Enjoy Your <span>Dream</span> Time With <span>Luxury</span> Experience</h2>
-                                            <div class="booking-now">
-                                                <div class="ico">
-                                                    <i class="ri-phone-line"></i>
-                                                </div>
-                                                <div class="booking-text">
-                                                    <p>Book Now</p>
-                                                    <span>987 654 3210</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                            <video autoplay muted loop playsinline loading="lazy">
+                                <source src="assets/dev-img/banner-video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <div class="video-overlay"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section> -->
+        <section class="book-now-widget" id="book-room">
+            <form id="book-now-form" action="" method="get" target="">
+
+                <div class="container desktop">
+                    <div>
+                        <span class="heading">Arrive</span>
+                        <input class="date arrival datepicker form-control input active" placeholder="Arrival Date"
+                            type="text" readonly="readonly">
+                    </div>
+                    <div>
+                        <span class="heading">Depart</span>
+                        <input class="date departure datepicker form-control input" placeholder="Departure Date"
+                            type="text" readonly="readonly">
+                    </div>
+                    <div>
+                        <span class="heading">Adults</span>
+                        <select class="occupants" type="number" min="1" name="adult" id="guests" value="1" max="5"
+                            style="border:0px; text-align: center; width:3rem; box-sizing: border-box; color: #a7a9ac;">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                    </div>
+                    <div>
+                        <span class="heading">Phone No.</span>
+                        <input class="promo-code" type="text" name="phone_number" placeholder="Enter Phone No.">
+                    </div>
+                    <div>
+                        <a href="#" class="btn transparent hvr-swipe rx-btn-two" id="check-availability"
+                            type="submit">Book Now</a>
+                    </div>
+                </div>
+            </form>
+
+        </section>
+    </section>
 
     <!-- About -->
     <section class="section-about padding-tb-50">
@@ -623,12 +636,15 @@
                         <div class="row mb-minus-24">
                             <div class="col-lg-8 col-12 mb-24">
                                 <div class="rx-amenities-img">
-                                    <img src="assets/img/amenities/1.jpg" alt="amenities-1">
+                                    <img src="assets/dev-img/accommodation/big-img/multi-cuisiner-restaurant.jpg" alt="Multi-Cuisine Restaurant">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-12 mb-24">
                                 <div class="rx-amenities-contact amenities-animation">
                                     <div class="inner-banner">
+                                        <div class="acco-logo-area">
+                                            <img src="assets/dev-img/accommodation/multi-cuisine-restaurant.jpeg">
+                                        </div>
                                         <h4>Multi-Cuisine Restaurant</h4>
                                         <h5>
                                             Best in Banaras
@@ -646,7 +662,7 @@
                         <div class="row mb-minus-24">
                             <div class="col-lg-8 col-12 mb-24">
                                 <div class="rx-amenities-img">
-                                    <img src="assets/img/amenities/2.jpg" alt="amenities-2">
+                                    <img src="assets/dev-img/accommodation/big-img/onex-banquet.jpg" alt="Onex Banquet">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-12 mb-24">
@@ -669,12 +685,15 @@
                         <div class="row mb-minus-24">
                             <div class="col-lg-8 col-12 mb-24">
                                 <div class="rx-amenities-img">
-                                    <img src="assets/img/amenities/3.jpg" alt="amenities-3">
+                                    <img src="assets/dev-img/accommodation/big-img/bar-and-lounge.jpg" alt="Bar & Lounge">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-12 mb-24">
                                 <div class="rx-amenities-contact amenities-animation">
                                     <div class="inner-banner">
+                                        <div class="acco-logo-area">
+                                            <img src="assets/dev-img/accommodation/bar-and-lounge.png">
+                                        </div>
                                         <h4>Bar & Lounge</h4>
                                         <h5>
                                             For Best Evenings
@@ -692,7 +711,7 @@
                         <div class="row mb-minus-24">
                             <div class="col-lg-8 col-12 mb-24">
                                 <div class="rx-amenities-img">
-                                    <img src="assets/img/amenities/4.jpg" alt="amenities-4">
+                                    <img src="assets/dev-img/accommodation/big-img/sapphire-banquet.jpg" alt="Sapphire Banquet">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-12 mb-24">
@@ -715,7 +734,7 @@
                         <div class="row mb-minus-24">
                             <div class="col-lg-8 col-12 mb-24">
                                 <div class="rx-amenities-img">
-                                    <img src="assets/img/amenities/4.jpg" alt="amenities-4">
+                                    <img src="assets/dev-img/accommodation/big-img/suites.jpg" alt="Suites">
                                 </div>
                             </div>
                             <div class="col-lg-4 col-12 mb-24">
@@ -760,7 +779,7 @@
                 <div class="col-lg-4 col-sm-6 col-12 mb-24" data-aos="fade-up" data-aos-duration="1000">
                     <div class="rx-rooms-main-box">
                         <div class="rooms-box-front">
-                            <img src="assets/img/rooms/1.jpg" alt="room-1">
+                            <img src="assets/dev-img/room/suite-room.jpg" alt="Suite Room">
                             <div class="content-wrap">
                                 <div class="inner-contact">
                                     <h4>Suite Room</h4>
@@ -768,7 +787,7 @@
                             </div>
                         </div>
                         <div class="rooms-box-back">
-                            <img src="assets/img/rooms/1.jpg" alt="rooms-1">
+                            <img src="assets/dev-img/room/suite-room.jpg" alt="rooms-1">
                             <div class="content-wrap">
                                 <div class="box-overlay"></div>
                                 <div class="inner-back-side">
@@ -798,7 +817,7 @@
                     data-aos-delay="200">
                     <div class="rx-rooms-main-box">
                         <div class="rooms-box-front">
-                            <img src="assets/img/rooms/2.jpg" alt="room-2">
+                            <img src="assets/dev-img/room/premium-room.jpg" alt="Premium Rooms">
                             <div class="content-wrap">
                                 <div class="inner-contact">
                                     <h4>Premium Rooms</h4>
@@ -806,7 +825,7 @@
                             </div>
                         </div>
                         <div class="rooms-box-back">
-                            <img src="assets/img/rooms/2.jpg" alt="rooms-2">
+                            <img src="assets/dev-img/room/premium-room.jpg" alt="Premium Rooms">
                             <div class="content-wrap">
                                 <div class="box-overlay"></div>
                                 <div class="inner-back-side">
@@ -836,7 +855,7 @@
                     data-aos-delay="400">
                     <div class="rx-rooms-main-box">
                         <div class="rooms-box-front">
-                            <img src="assets/img/rooms/3.jpg" alt="room-3">
+                            <img src="assets/dev-img/room/king-size-room.jpg" alt="King Size Rooms">
                             <div class="content-wrap">
                                 <div class="inner-contact">
                                     <h4>King Size Rooms</h4>
@@ -844,7 +863,7 @@
                             </div>
                         </div>
                         <div class="rooms-box-back">
-                            <img src="assets/img/rooms/3.jpg" alt="rooms-3">
+                            <img src="assets/dev-img/room/king-size-room.jpg" alt="King Size Rooms">
                             <div class="content-wrap">
                                 <div class="box-overlay"></div>
                                 <div class="inner-back-side">
@@ -880,7 +899,7 @@
     <!-- Testimonials -->
     <section class="section-testimonials padding-tb-50">
         <div class="container">
-            <div class="row">
+            <div class="row justify-content-md-center">
                 <div class="col-12" data-aos="fade-up" data-aos-duration="1000">
                     <div class="rx-banner text-center rx-banner-effects">
                         <p><img src="assets/img/banner/left-shape.svg" alt="banner-left-shape"
@@ -889,15 +908,15 @@
                         <h4>Our Happy <span>Guests Say</span></h4>
                     </div>
                 </div>
-                <div class="col-12" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="col-12 col-lg-8" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
                     <div class="owl-carousel rx-testimonials-slider">
-                        <div class="row mb-minus-24">
-                            <div class="col-md-4 col-12 mb-24">
+                        <div class="row mb-minus-24 justify-content-md-center">
+                            <!-- <div class="col-md-4 col-12 mb-24">
                                 <div class="rx-testimonials-img">
                                     <img src="assets/img/testimonials/1.jpg" alt="testimonials-1">
                                 </div>
-                            </div>
-                            <div class="col-md-8 col-12 mb-24">
+                            </div> -->
+                            <div class="col-md-10 col-12 mb-24">
                                 <div class="rx-testimonials-contact">
                                     <div class="rx-inner-banner">
                                         <h4>Alok Tiwari</h4>
@@ -924,13 +943,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-minus-24">
-                            <div class="col-md-4 col-12 mb-24">
+                        <div class="row mb-minus-24 justify-content-md-center">
+                            <!-- <div class="col-md-4 col-12 mb-24">
                                 <div class="rx-testimonials-img">
                                     <img src="assets/img/testimonials/2.jpg" alt="testimonials-2">
                                 </div>
-                            </div>
-                            <div class="col-md-8 col-12 mb-24">
+                            </div> -->
+                            <div class="col-md-10 col-12 mb-24">
                                 <div class="rx-testimonials-contact">
                                     <div class="rx-inner-banner">
                                         <h4>Ajay Agrawal</h4>
@@ -949,13 +968,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-minus-24">
-                            <div class="col-md-4 col-12 mb-24">
+                        <div class="row mb-minus-24 justify-content-md-center">
+                            <!-- <div class="col-md-4 col-12 mb-24">
                                 <div class="rx-testimonials-img">
                                     <img src="assets/img/testimonials/3.jpg" alt="testimonials-3">
                                 </div>
-                            </div>
-                            <div class="col-md-8 col-12 mb-24">
+                            </div> -->
+                            <div class="col-md-10 col-12 mb-24">
                                 <div class="rx-testimonials-contact">
                                     <div class="rx-inner-banner">
                                         <h4>Anand Singh</h4>
@@ -972,13 +991,13 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row mb-minus-24">
-                            <div class="col-md-4 col-12 mb-24">
+                        <div class="row mb-minus-24 justify-content-md-center">
+                            <!-- <div class="col-md-4 col-12 mb-24">
                                 <div class="rx-testimonials-img">
                                     <img src="assets/img/testimonials/3.jpg" alt="testimonials-3">
                                 </div>
-                            </div>
-                            <div class="col-md-8 col-12 mb-24">
+                            </div> -->
+                            <div class="col-md-10 col-12 mb-24">
                                 <div class="rx-testimonials-contact">
                                     <div class="rx-inner-banner">
                                         <h4>Satyendra Jaiswal</h4>
@@ -1171,10 +1190,10 @@
                         <p>
                             <img src="assets/img/banner/left-shape.svg" alt="banner-left-shape"
                                 class="svg-img left-side">
-                                The Elegance
-                                <img src="assets/img/banner/right-shape.svg"
-                                alt="banner-right-shape" class="svg-img right-side">
-                            </p>
+                            The Elegance
+                            <img src="assets/img/banner/right-shape.svg" alt="banner-right-shape"
+                                class="svg-img right-side">
+                        </p>
                         <h4>Other Hotels by The <span>Elegance Group</span></h4>
                     </div>
                 </div>
@@ -1330,6 +1349,30 @@
     <script src="assets/js/vendor/owl.carousel.min.js"></script>
     <script src="assets/js/vendor/swiper-bundle.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <!-- <script>
+        $('.arrival.datepicker').datepicker({
+            format: 'dd-mm-yyyy',
+            startDate: '+1d',
+            endDate: '+364d',
+            todayHighlight: true,
+            onSelect: function (date) {
+                var arrivalDate = new Date(date);
+                var minDepartureDate = new Date(arrivalDate);
+                minDepartureDate.setDate(minDepartureDate.getDate() + 2);
+
+                $('.departure.datepicker').datepicker('setStartDate', minDepartureDate);
+                $('.departure.datepicker').datepicker('update', minDepartureDate);
+            }
+        });
+
+        $('.departure.datepicker').datepicker({
+            format: 'dd-mm-yyyy',
+            startDate: '+2d',
+            endDate: '+365d',
+            autoclose: true,
+            todayHighlight: true
+        });
+    </script> -->
     <!-- <script>
         document.addEventListener('DOMContentLoaded', function() {
             const iframe = document.querySelector('.youtube-video-wrapper iframe');
