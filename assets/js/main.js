@@ -284,10 +284,10 @@
   });
 
   /* Date */
-  $('.datepicker').datepicker({
-    format: 'dd-mm-yyyy',
-    startDate: '+1d'
-  });
+  // $('.datepicker').datepicker({
+  //   format: 'dd-mm-yyyy',
+  //   startDate: '+1d'
+  // });
 
   /* Room details slider */
   $(".room-slider-for").slick({
