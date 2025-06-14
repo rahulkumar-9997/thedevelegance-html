@@ -258,6 +258,20 @@
   font-weight: 900;
   font-style: italic;
 }
+@font-face {
+  font-family:"superior-title";
+  src: url("../fonts/superior-title-font/SuperiorTitleTRIAL-Regular-BF642f8c4ba8c96.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"source-sans-pro";
+  src: url("../fonts/source-sans-pro/SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
 
 /* Utilities ( Import Utilities ) */
 /* mixing */
@@ -265,8 +279,9 @@
 /* components ( Import components ) */
 /* common */
 body {
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  /* font-family: "Poppins", sans-serif; */
+  font-family: source-sans-pro, sans-serif;
+  font-size: 16px;
   font-weight: 400;
   color: #555555;
   line-height: 26px;
@@ -287,11 +302,11 @@ p,
 li,
 a {
   margin-bottom: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 15px;
+  font-family: source-sans-pro, sans-serif;
+  font-size: 16px;
   color: #555555;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 1.5;
   letter-spacing: 0.03rem;
 }
 
@@ -311,7 +326,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "superior-title", serif;
   margin-bottom: 0;
   color: #000;
   font-weight: 600;
@@ -424,7 +439,7 @@ h6 {
 
 .rx-banner p {
   margin-bottom: 4px;
-  font-family: "Poppins", sans-serif;
+  font-family: source-sans-pro, sans-serif;
   font-size: 16px;
   letter-spacing: 1px;
   font-weight: 500;
@@ -432,7 +447,7 @@ h6 {
 }
 
 .rx-banner h4 {
-  font-family: "Playfair Display", serif;
+  font-family: "superior-title", serif;
   font-size: 35px;
   color: #000;
   line-height: 1.2;
@@ -579,7 +594,7 @@ h6 {
 
 .inner-breadcrumb-contact .rx-banner-breadcrumb .breadcrumb-contact .last-contact ul li {
   padding: 0 8px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   color: #fff;
 }
@@ -587,7 +602,7 @@ h6 {
 .inner-breadcrumb-contact .rx-banner-breadcrumb .breadcrumb-contact .last-contact ul li a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #fff;
 }
@@ -599,7 +614,7 @@ h6 {
 .inner-breadcrumb-contact .rx-banner-breadcrumb .breadcrumb-contact .last-contact ul li:last-child:before {
   content: "\ea6e";
   font-family: "remixicon";
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   padding-right: 12px;
 }
@@ -739,7 +754,7 @@ a.back-to-top img path {
 }
 
 .form-select option {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
@@ -760,31 +775,31 @@ textarea:focus {
 }
 
 textarea::-webkit-input-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 textarea::-moz-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 textarea:-ms-input-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 textarea::-ms-input-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 textarea::placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
@@ -809,35 +824,35 @@ input:focus,
 
 input::-webkit-input-placeholder,
 .rx-from-control::-webkit-input-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 input::-moz-placeholder,
 .rx-from-control::-moz-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 input:-ms-input-placeholder,
 .rx-from-control:-ms-input-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 input::-ms-input-placeholder,
 .rx-from-control::-ms-input-placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
 
 input::placeholder,
 .rx-from-control::placeholder {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
@@ -892,11 +907,11 @@ input::placeholder,
   line-height: 25px;
   background-color: #fff;
   color: #131618;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
   letter-spacing: 1px;
   border: 1px solid #aa833f;
-  padding: 0.75em 1.25em 0.6em 1.25em;
+  padding: 0.75em 1.25em 0.75em 1.25em;
   border-radius: 0px;
 }
 
@@ -1591,7 +1606,7 @@ header .header-fixed {
   padding-right: 0px;
   text-transform: capitalize;
   display: block;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #555555;
   border-top: 0;
@@ -1604,7 +1619,7 @@ header .header-fixed {
 .rx-mobile-menu .rx-menu-inner .rx-menu-contact ul li .sub-menu li .sub-menu li a {
   font-weight: 400;
   padding-left: 30px;
-  font-size: 14px;
+  font-size: 16px;
   color: #555555;
 }
 
@@ -1733,8 +1748,8 @@ footer {
 }
 
 .rx-social-media .inner-contact p {
-  font-size: 13px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 300;
   color: #cbcbcb;
 }
@@ -1806,8 +1821,8 @@ footer {
 .rx-footer-items .rx-items-contact ul li a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-size: 13px;
-  line-height: 1.7;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 300;
   color: #cbcbcb;
 }
@@ -1845,8 +1860,8 @@ footer {
 .rx-footer-other-info .inner-info a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 16px;
+  line-height: 1.5;
   font-weight: 300;
   color: #cbcbcb;
   text-decoration: none;
@@ -1920,7 +1935,7 @@ footer {
 }
 
 .rx-footer-inner-contact .rx-footer-left-side-contact p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #bbb;
 }
@@ -1928,7 +1943,7 @@ footer {
 .rx-footer-inner-contact .rx-footer-left-side-contact p a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #bbb;
 }
@@ -2237,7 +2252,7 @@ footer {
 
 .rx-tools-sidebar .rx-inner-tools-sidebar .rx-tools-detail .rx-tools-block h3 {
   margin: 15px 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #000;
 }
@@ -2697,7 +2712,7 @@ footer {
 
 .section-hero .rx-hero-contact .inner-contact .booking-now .booking-text p {
   margin-bottom: 0;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   line-height: 20px;
   color: #fff;
@@ -2811,7 +2826,7 @@ footer {
   }
 
   .section-hero .rx-hero-contact .inner-contact p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 22px;
   }
 
@@ -2836,7 +2851,7 @@ footer {
   }
 
   .section-hero .rx-hero-contact .inner-contact .booking-now .booking-text span {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -2889,7 +2904,7 @@ footer {
 }
 
 .extra-services-contact .extra-services-absolute-contact p {
-  font-family: "Poppins", sans-serif;
+ font-family: source-sans-pro, sans-serif;
   font-size: 120px;
   line-height: 85px;
   color: rgba(0, 0, 0, 0.03);
@@ -2923,7 +2938,7 @@ footer {
 }
 
 .extra-services-contact .rx-services-price h2 span {
-  font-family: "Poppins", sans-serif;
+  font-family: source-sans-pro, sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #131618;
@@ -3144,7 +3159,7 @@ footer {
 }
 
 .rx-testimonials-contact .rx-inner-banner span {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
@@ -3160,7 +3175,7 @@ footer {
 @media screen and (max-width: 991px) {
   .rx-testimonials-contact .inner-contact p {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -3286,7 +3301,7 @@ footer {
 }
 
 .rx-menu-tabs-contact .inner-menu .sub-contact p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #555555;
 }
@@ -3433,8 +3448,8 @@ footer {
 
 .rx-book-from .rx-input-box label {
   margin-bottom: 8px;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-family: source-sans-pro, sans-serif;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
@@ -3461,7 +3476,7 @@ footer {
 
 .rx-booking-last-contact p {
   margin-bottom: 30px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
@@ -3509,9 +3524,10 @@ footer {
 
 .rx-about-contact .inner-contact p {
   margin-bottom: 16px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #555555;
+  text-align: justify;
 }
 
 .rx-about-contact .inner-contact .rx-about-inner-box {
@@ -3540,7 +3556,7 @@ footer {
 
 .rx-about-contact .inner-contact .rx-about-inner-box .rx-about-box h5 {
   margin-bottom: 12px;
-  font-family: "Poppins", sans-serif;
+  font-family: "superior-title", serif;
   font-size: 23px;
   color: #000;
   font-weight: 600;
@@ -3549,8 +3565,8 @@ footer {
 
 .rx-about-contact .inner-contact .rx-about-inner-box .rx-about-box p {
   margin-bottom: 0;
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+ font-family: source-sans-pro, sans-serif;
+  font-size: 16px;
   color: #555555;
   letter-spacing: 2px;
   line-height: 1.2;
@@ -3703,7 +3719,7 @@ footer {
   }
 
   .rx-about-contact .inner-contact .rx-about-inner-box .rx-about-box p {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -3779,8 +3795,8 @@ footer {
 }
 
 .rx-services .services-contact ul li {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
+  font-family: source-sans-pro, sans-serif;
+  font-size: 16px;
   color: #555555;
 }
 
@@ -4015,7 +4031,7 @@ footer {
 }
 
 .rx-rooms-box .rx-rooms-back-side .inner-back-side .sub-inner-contact ul li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #555555;
 }
@@ -4036,7 +4052,7 @@ footer {
   background-color: #131618;
   color: #fff;
   padding: 6px 14px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .rx-rooms-box .rx-rooms-back-side .inner-back-side .last-contact .inner-button i {
@@ -4193,7 +4209,7 @@ footer {
 
 .rx-rooms-box-2 .inner-back-side .rx-button a {
   padding: 4px 12px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Responsive */
@@ -4207,7 +4223,7 @@ footer {
   }
 
   .rx-rooms-box-2 .inner-back-side .sub-title .rx-price {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .rx-rooms-box-2 .inner-back-side .inner-info {
@@ -4215,7 +4231,7 @@ footer {
   }
 
   .rx-rooms-box-2 .inner-back-side .inner-info ul li {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -4411,7 +4427,7 @@ footer {
 }
 
 .rx-rooms-main-box .rooms-box-back .content-wrap .inner-back-side .sub-inner-contact ul li {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #555555;
 }
@@ -4433,7 +4449,7 @@ footer {
   background-color: #131618;
   color: #fff;
   padding: 5px 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .rx-rooms-main-box .rooms-box-back .content-wrap .inner-back-side .last-contact .inner-button i {
@@ -4579,7 +4595,7 @@ footer {
 
 .rx-room-details-sidebar .inner-room-details .rx-side-from .form-check .form-check-label {
   padding-left: 10px;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 14px;
   font-weight: 500;
   color: #555555;
@@ -4640,7 +4656,7 @@ footer {
 }
 
 .rx-room-details-main-contact .rx-inner-details .inner-text p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .rx-room-details-main-contact .rx-inner-details .rx-details-inner {
@@ -4667,7 +4683,7 @@ footer {
 }
 
 .rx-room-details-main-contact .rx-inner-details .rx-details-inner .inner-room-details .rx-cols-room ul li {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .rx-room-details-main-contact .rx-inner-details .rx-details-inner .inner-room-details .rx-inner-review .rx-input-box {
@@ -5010,7 +5026,7 @@ footer {
 }
 
 .rx-team-card .rx-team-contact p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #555555;
 }
@@ -5147,7 +5163,7 @@ figure {
 
 .rx-contact-form .rx-input-box label {
   margin-bottom: 4px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   color: #000;
 }
@@ -5234,7 +5250,7 @@ figure {
 
 .rx-faq .accordion .accordion-item .accordion-collapse .accordion-body p {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 /* Blog-details */
@@ -5278,7 +5294,7 @@ figure {
 
 .rx-blog-details .rx-blog-details-cart .blog-details-contact p {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .rx-blog-details .rx-blog-details-cart .blog-details-contact img {
@@ -5374,7 +5390,7 @@ figure {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   padding: 10px 0;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   color: #555555;
@@ -5438,7 +5454,7 @@ figure {
 .rx-blog-details-sidebar .rx-recent-post .recent-inner-post .recent-post-cart .post-contact h4 a {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 12px;
   color: #555555;
@@ -5469,7 +5485,7 @@ figure {
   padding: 0 20px;
   margin: 5px;
   background: #fff;
-  font-size: 14px;
+  font-size: 16px;
   color: #777;
   border: 1px solid #eee;
   border-radius: 10px;
@@ -5486,7 +5502,7 @@ figure {
 /* Responsive */
 @media screen and (max-width: 1399px) {
   .rx-blog-details-sidebar .rx-recent-post .recent-inner-post .recent-post-cart .post-contact h4 a {
-    font-size: 14px;
+    font-size: 16px;
   }
 }
 
@@ -5567,10 +5583,11 @@ figure {
 }
 
 .rx-spa-card .spa-contact p {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 20px;
   font-weight: 400;
   color: #555555;
+  line-height: 1.5;
 }
 
 .rx-spa-services {
@@ -5611,7 +5628,7 @@ figure {
 .rx-spa-services .spa-services-contact p {
   margin-bottom: 8px;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .rx-spa-services .spa-services-contact span {
@@ -5711,7 +5728,7 @@ figure {
 }
 
 .rx-checkout .rx-checkout-wrap .rx-check-block .rx-new-option div label {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #000;
 }
@@ -5773,7 +5790,7 @@ figure {
 }
 
 .rx-checkout .rx-checkout-wrap .rx-billing-details .rx-new-option .option-radio label {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   color: #000;
 }
@@ -6299,7 +6316,7 @@ figure {
 }
 
 .rating-score {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   color: #222;
   min-width: 30px;
