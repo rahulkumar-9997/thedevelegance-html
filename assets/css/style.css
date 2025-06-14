@@ -4700,10 +4700,11 @@ footer {
 /* Amenities */
 .rx-amenities-img img {
   width: 100%;
-  border-top-left-radius: 500px;
+  border-radius: 10px;
+  /* border-top-left-radius: 500px;
   border-bottom-left-radius: 500px;
   border-top-right-radius: 100px;
-  border-bottom-right-radius: 0;
+  border-bottom-right-radius: 0; */
 }
 
 .rx-amenities-slider .amenities-animation>* {
@@ -4766,7 +4767,7 @@ footer {
 .rx-amenities-contact .inner-banner {
   margin-bottom: 16px;
   position: relative;
-  left: -100px;
+  /* left: -100px; */
   width: calc(100% + 100px);
 }
 
@@ -4805,7 +4806,7 @@ footer {
   padding: 10px 0 0 10px;
   position: absolute;
   bottom: 0;
-  right: 435px;
+  right: 551px;
 }
 
 /* Responsive */
@@ -6064,7 +6065,8 @@ figure {
 }
 .about-bg-first{
     position: relative;
-    background-color: #202021;
+    /* background-color: #202021; */
+    background-color: #aa833f;
     z-index: 1;
 }
 .about-two__bg {
@@ -6184,3 +6186,144 @@ figure {
 }
 
 /*youtube video*/
+.header-top .inner-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-top .top-left {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.header-style-two .header-top .inner-box .top-left span {
+    color: #fff;
+}
+.header-top .inner-box .top-left span .icon {
+    color: #fff;
+    margin-right: 18px;
+}
+
+.social-icon-one {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header-top .social-icon-one li {
+    color: #fff;
+    margin-left: 0;
+    margin-right: 18px;
+}
+.social-icon-one li:first-child {
+    margin-left: 0;
+}
+.social-icon-one li {
+    position: relative;
+    margin-left: 20px;
+}
+.header-top .inner-box .top-right .social-icon-one li a {
+    font-size: 16px;
+    color: #fff;
+}
+.social-icon-one li a {
+    position: relative;
+    display: block;
+    font-size: 12px;
+    line-height: 30px;
+    color: #fff;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.header-top{
+  background-color: #aa833f;
+}
+.top-left span{
+  color: #fff;
+}
+.inner-box{
+  padding: 5px 0 5px;
+}
+/*rating css */
+.tripadvisor-rating{
+  padding-top: 20px;
+}
+.tripadvisor-ratings-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  
+}
+
+.rating-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.rating-label {
+  font-weight: bold;
+  color: #333;
+}
+
+.rating-bar-score {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating-bar {
+  flex: 1;
+  height: 8px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.rating-fill {
+  height: 100%;
+  background-color: #00aa6c;
+  border-radius: 4px;
+  transition: width 0.3s ease-in-out;
+}
+
+.rating-score {
+  font-size: 14px;
+  font-weight: bold;
+  color: #222;
+  min-width: 30px;
+  text-align: right;
+}
+
+/*rating css */
+.testimonials-first {
+    border-top: 8px solid #aa833f;
+    border-bottom: 8px solid #aa833f;
+    margin-top: 120px;
+    /* padding-bottom: 120px; */
+    color: #ffffff;
+    background: url(../dev-img/bg-2.webp);
+    background-size: 160px 160px;
+    background-color: #202021;
+    position: relative;
+}
+.overlay-welcome {
+    background-color: rgb(170 131 63 / 31%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+}
